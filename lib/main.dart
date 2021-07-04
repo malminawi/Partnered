@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './screens/account-page.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,20 +11,17 @@ class MyApp extends StatelessWidget  {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "First App",
-      home:  Scaffold(appBar: AppBar(
-        title: Text ("Partner"),
-        backgroundColor: Colors.black26,
-        centerTitle: true,
-        actions: [
-          IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border)),
-          IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border)),
-          IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border)),
-          IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border)),
-          ]
-
-      ),
-        drawer: Drawer(),
-      ),
+      home: account(),
+      // Scaffold(
+      //   appBar: AppBar(
+      //   title: Text ("Partner"),
+      //   backgroundColor: Colors.black26,
+      //   centerTitle: true,
+      //   actions: [
+      //     IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border)),]
+      // ),
+      //   drawer: Drawer(),
+      // ),
     );
 
 
