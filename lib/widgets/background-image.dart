@@ -17,14 +17,18 @@ class Backgroundimage extends StatelessWidget {
       blendMode: BlendMode.darken,
 
       child: Container(
+        width: 780,
+        height: 1280,
         decoration: BoxDecoration(
-            image: DecorationImage(
-            image: AssetImage('../assets_images/account/account_page.png'),
-            fit: BoxFit.cover,
-            colorFilter: ColorFilter.mode(Colors.black45, BlendMode.darken)
-
-            )
+          color: Colors.cyan,
         ),
+        // decoration: BoxDecoration(
+        //     image: DecorationImage(
+        //     image: AssetImage('../assets_images/account/account_page.png'),
+        //     fit: BoxFit.cover,
+        //     colorFilter: ColorFilter.mode(Colors.black45, BlendMode.darken)
+        //     )
+        // ),
       ),
     );
   }
