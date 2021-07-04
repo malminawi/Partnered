@@ -15,7 +15,12 @@ class MyApp extends StatelessWidget  {
         backgroundColor: Colors.black26,
         centerTitle: true,
         actions: [
-          IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border))]
+          IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border)),
+          IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border)),
+          IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border)),
+          IconButton(onPressed: (){}, icon: Icon(Icons.favorite_border)),
+          ]
+
       ),
         drawer: Drawer(),
       ),
